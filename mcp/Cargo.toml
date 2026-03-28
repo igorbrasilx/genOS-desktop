@@ -1,0 +1,13 @@
+[package]
+name = "genos-mcp"
+description = "GENOS MCP bus — Model Context Protocol as system primitive"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[dependencies]
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+tracing.workspace = true
+anyhow.workspace = true
